@@ -27,7 +27,7 @@ rateLimitSeconds = 1
 
 -- Setting a user agent to be a good citizen, and because Scryfall asks us to.
 userAgent :: ByteString
-userAgent = "amalloy's personal Scryfall CSV downloader"
+userAgent = "amalloy's personal Scryfall CSV downloader (https://github.com/amalloy/scryfall-downloader/tree/master)"
 
 -- Scryfall says you must set one of these, and lists */* as an option.
 -- Probably http-conduit would set something reasonable, but let's be sure.
